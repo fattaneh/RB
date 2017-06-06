@@ -22,3 +22,5 @@ All setups of experimental simulations in the paper can be run using the script 
 
 
 The given example script runs 10 rounds of simulations on Hepar2 dataset with 2000 cases, 20% latent variables, 100 sampled PAGs, and 500 bootstraps (for BSC-D method). You may change the network name to "Alarm" or "Hailfinder" to run simulations on two other Bayesian networks. 
+
+Please note that the RB search method is a part of Tetrad tool (http://www.ccd.pitt.edu/tools/) and we plan to merge it to Tetrad's github repository.
