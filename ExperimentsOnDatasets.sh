@@ -12,7 +12,7 @@ dataPath="./data"
 
 for i in {0..10}
 do
-	java -cp causal-cmd-6.0.1-SNAPSHOT-jar-with-dependencies.jar edu.cmu.tetrad.search.RBExperiments -net $network -c $cases -lv $lv -m $models -bs $bs -alpha $alpha -t1 false -t2 true -i $i -out $filePath -data $dataPath
+	java -cp causal-cmd-6.0.1-SNAPSHOT-jar-with-dependencies.jar edu.cmu.tetrad.search.RBExperiments -net $network -c $cases -lv $lv -m $numModel -bs $bs -alpha $alpha -t1 false -t2 true -i $i -out $filePath -data $dataPath
 					
 done
 
