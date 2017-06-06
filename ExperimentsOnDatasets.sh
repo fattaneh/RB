@@ -5,8 +5,6 @@ lv=0.2
 bs=500
 alpha=0.05
 numModel=100
-t1=false;
-t2=true;
 filePath="./BSC_Simulations"
 dataPath="./data"
 
